@@ -1,0 +1,24 @@
+{
+    "name": "arabcoders/dependency",
+    "type": "library",
+    "description": "Find function and class dependencies in PHP source code",
+    "keywords": [
+        "Code Dependency",
+        "Extensions"
+    ],
+    "homepage": "https://github.com/ArabCoders/code-dependency",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AbdulMohsen B. A. A.",
+            "email": "admin@arabcoders.org"
+        }    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "arabcoders\\dependency\\": "src/"
+        }
+    }
+}
